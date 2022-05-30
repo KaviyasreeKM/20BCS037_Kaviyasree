@@ -1,9 +1,6 @@
 int led = 2;
 int led1 = 3;
 int led2 = 4;
-int led3 = 5;
-int led4 = 6;
-
 
 
 int ldr = A5;
@@ -11,9 +8,6 @@ int ldr = A5;
 int ir = A0;
 int ir1 = A1;
 int ir2 = A2;
-int ir3 = A3;
-int ir4 = A4;
-
 
 
 void setup() 
@@ -31,11 +25,6 @@ void setup()
   pinMode (ir,INPUT);
   pinMode (ir1,INPUT);
   pinMode (ir2,INPUT);
-  pinMode (ir3,INPUT);
-  pinMode (ir4,INPUT);
- 
- 
-  
 
 }
 void loop() 
@@ -72,7 +61,7 @@ void loop()
                 }
        
        
-       if (analogRead(A1)<300)       // IR 1 CODE    
+       if (analogRead(A1)<300)       // IR 2 CODE    
                {
                 digitalWrite(led1,HIGH);
                 analogWrite(led1,255);       
