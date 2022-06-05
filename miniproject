@@ -16,8 +16,6 @@ void setup()
   pinMode (led1,OUTPUT);
   pinMode (led2,OUTPUT);
  
-  
-  
   pinMode (ldr,INPUT);
   
   pinMode (ir,INPUT);
