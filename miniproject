@@ -2,13 +2,11 @@ int led = 2;
 int led1 = 3;
 int led2 = 4;
 
-
 int ldr = A5;
 
 int ir = A0;
 int ir1 = A1;
 int ir2 = A2;
-
 
 void setup() 
 {
